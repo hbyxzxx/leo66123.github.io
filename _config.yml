@@ -19,3 +19,5 @@ github_username:  leo66123
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-modernist
