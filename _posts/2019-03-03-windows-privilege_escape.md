@@ -4,6 +4,9 @@ title:  "windows提权"
 date:   2019-03-03 15:16
 categories: post
 ---
+相关文章：
+- https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/
+- https://www.hackingarticles.in/windows-kernel-exploit-privilege-escalation/
 
 Windows常用命令
 
