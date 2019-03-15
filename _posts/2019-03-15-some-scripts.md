@@ -18,6 +18,7 @@ beef:
     unzip master.zip
     cd master
 
+
 apt install sqlmap
 
 python:
@@ -40,4 +41,8 @@ vpn:
 
     wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
 
+msf:
 
+    curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
+    chmod 755 msfinstall && \
+    ./msfinstall
