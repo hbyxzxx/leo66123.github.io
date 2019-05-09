@@ -5,6 +5,13 @@ lnmp:
 
     wget http://soft.vpser.net/lnmp/lnmp1.5.tar.gz -cO lnmp1.5.tar.gz && tar zxf lnmp1.5.tar.gz && cd lnmp1.5 && ./install.sh lnmp
 
+katoolin：
+
+    git clone https://github.com/LionSec/katoolin.git
+    sudo cp katoolin/katoolin.py /usr/bin/katoolin
+    chmod +x /usr/bin/katoolin
+    
+    
 rvm:
 
     apt install gnupg2
